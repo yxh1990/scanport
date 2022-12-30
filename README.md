@@ -32,7 +32,8 @@
    main.exe -i 192.168.30.129 -p 1-65535 -m port -li 0 -n 1000 -ng
    go run main.go -i 192.168.30.129 -p 1-6000 -m port -li 0 -n 50
    go run main.go -i 192.168.30.129 -p 1-65535 -m port -li 0 -n 2000 -ng
-
+   
+  
 
 3.主机探活
    只要启用-m ping 模块即可
@@ -42,8 +43,11 @@
 4.端口探活
    添加 -ns 选项参数
    go run main.go -i 192.168.30.129/24 -p 1-65535 -m port -li 0 -n 1000 -ng -ns
+   
+ ![image](https://user-images.githubusercontent.com/11001852/210042467-dd2bfd74-b334-472f-95de-466c3d4453be.png)
 
 
-   ![image](https://user-images.githubusercontent.com/11001852/210042081-73ad67bf-1d8e-4cea-9d47-a251dff2b84b.png)
+
+
 
    
